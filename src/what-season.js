@@ -15,20 +15,21 @@ function getSeason(date) {
 if(!date){
   return 'Unable to determine the time of year!'
 }
-if(!date.getMonth){
-  return 'throw!ErrorInvalid date!'
+try {
+  date.getTime()
+} catch(err) {
+  throw new Error('Invalid date!')
 }
-let mounth = date.getMonth();
-if(mounth === 10 || 11 || 0) {
+const mounth = date.getMonth();
+if(mounth === 11 || mounth === 0 || mounth === 1) {
   return 'winter'
-} else if(mounth === 1 || 2 || 3) {
+} else if(mounth === 2 || mounth === 3 || mounth === 4) {
   return 'spring'
-} else if (mounth === 4 || 5 || 6) {
+} else if (mounth === 5 || mounth === 6 || mounth === 7) {
   return 'summer'
-} else if(mounth === 7 || 8 || 9 ) {
+} else if(mounth === 8 || mounth === 9 || mounth === 10 ) {
   return 'autumn'
-} else {
-  return 'throw!ErrorInvalid date!'
+} 
 }
 
 module.exports = {
