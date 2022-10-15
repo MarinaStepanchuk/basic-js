@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/recursive-depth.js"
+    "start": "node ./src/extended-repeater.js"
   },
   "repository": {
     "type": "git",
