@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/matrix-elements-sum.js"
+    "start": "node ./src/mine-sweeper.js"
   },
   "repository": {
     "type": "git",
