@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/vigenere-cipher.js"
+    "start": "node ./src/dns-stats.js"
   },
   "repository": {
     "type": "git",
