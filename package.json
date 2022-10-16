@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/mac-address.js"
+    "start": "node ./src/matrix-elements-sum.js"
   },
   "repository": {
     "type": "git",
