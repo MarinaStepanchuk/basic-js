@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/file-names.js"
+    "start": "node ./src/mac-address.js"
   },
   "repository": {
     "type": "git",
