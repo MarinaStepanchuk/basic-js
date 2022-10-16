@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/sort-by-height.js"
+    "start": "node ./src/sum-digits.js"
   },
   "repository": {
     "type": "git",
